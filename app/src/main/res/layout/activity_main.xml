@@ -9,24 +9,25 @@
     <EditText
         android:id="@+id/editTextName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Client"
-        android:textStyle="bold"/>
+        android:layout_height="48dp"
+        android:hint="@string/client"
+        android:textStyle="bold"
+        android:autofillHints="Client" />
 
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_below="@id/editTextName"
-        android:hint="Phone Number"
+        android:hint="@string/phone_number"
         android:textStyle="bold"/>
     <Button
         android:id="@+id/buttonAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextNumber"
-        android:text="Enter"
-        android:background="#2196F3"/>
+        android:text="@string/enter"
+        android:background="#1e2bf3" />
 
 </RelativeLayout>
 
